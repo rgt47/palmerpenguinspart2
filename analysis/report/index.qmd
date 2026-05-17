@@ -1,9 +1,6 @@
 ---
 title: "Palmer Penguins Part 2: Multiple Regression and
   Species Effects"
-subtitle: >
-  Discovering the power of combining predictors and
-  biological groupings
 author: "Ronald 'Ryy' G. Thomas"
 date: "2025-01-02"
 categories: [r, regression]
@@ -29,7 +26,7 @@ format:
 terrain, illustrating the morphometric diversity that
 motivates multiple regression
 analysis.](media/images/hero.jpg){.img-fluid
-width=80%}
+width=80% fig-align="center"}
 
 *Photo: Licensed under CC BY 2.0 via Wikimedia
 Commons.*
