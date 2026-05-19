@@ -32,7 +32,7 @@ width=80% fig-align="center"}
 Commons.*
 
 ::: {.callout-note}
-**Palmer Penguins Series** -- This is part 2 of 5:
+**Palmer Penguins Series:** This is part 2 of 5:
 [Part 1](/posts/08-palmerpenguinspart1/) |
 [Part 2](/posts/09-palmerpenguinspart2/) |
 [Part 3](/posts/10-palmerpenguinspart3/) |
@@ -59,8 +59,8 @@ accounting for species differences? The answer, as
 we shall see, is both quantitatively satisfying and
 conceptually instructive.
 
-This second installment walks through the process
-of building multiple regression models, diagnosing
+This second installment examines the process of
+building multiple regression models, diagnosing
 multicollinearity, and measuring the contribution
 of species identity to prediction accuracy.
 
@@ -186,8 +186,8 @@ cat(
 
 The simple model sets our floor: R-squared of 0.762
 and an RMSE of approximately 394 grams. Every model
-we build in this post should improve upon these
-values or explain why it does not.
+built here should improve upon these values or
+explain why it does not.
 
 ![Photograph of a penguin colony in their natural
 habitat, representing the biological populations
@@ -689,33 +689,38 @@ modelling process. The variance they explain is
 often substantial and, more importantly,
 scientifically interpretable.
 
-**Main takeaways:**
-
-- Multiple predictors improved R-squared from 0.762
-  to 0.816 (+5.4 percentage points).
-- Species identity improved R-squared from 0.816 to
-  0.863 (+4.7 percentage points).
-- RMSE decreased from approximately 394 to 300
-  grams across the model progression.
-- All VIF values remained below 5, confirming that
-  multicollinearity is manageable.
+In conclusion, four points merit emphasis. First,
+adding bill length and bill depth to the model
+improved R-squared from 0.762 to 0.816, a gain of
+5.4 percentage points attributable solely to the
+additional morphometric information. Second, species
+identity lifted R-squared further to 0.863, adding
+4.7 percentage points and confirming that biological
+grouping variables carry substantial predictive
+content. Third, RMSE decreased from approximately
+394 to 300 grams across the model progression,
+demonstrating that the improvements translate
+directly into more accurate individual predictions.
+Fourth, all VIF values remained below 5, confirming
+that multicollinearity is manageable and that the
+coefficient estimates are stable.
 
 # See Also
 
 ## Series Navigation
 
 - [Part 1: EDA and Simple
-  Regression](../palmer_penguins_part1/) --
-  establishing the flipper length baseline.
+  Regression](../palmer_penguins_part1/)
+  (establishing the flipper length baseline).
 - [Part 3: Advanced Models and
-  Cross-Validation](../palmer_penguins_part3/) --
-  testing model generalization.
+  Cross-Validation](../palmer_penguins_part3/)
+  (testing model generalization).
 - [Part 4: Model Diagnostics and
-  Interpretation](../palmer_penguins_part4/) --
-  assumption checking in depth.
+  Interpretation](../palmer_penguins_part4/)
+  (assumption checking in depth).
 - [Part 5: Random Forest vs Linear
-  Models](../palmer_penguins_part5/) --
-  comparing paradigms.
+  Models](../palmer_penguins_part5/)
+  (comparing paradigms).
 
 ## Key Resources
 
