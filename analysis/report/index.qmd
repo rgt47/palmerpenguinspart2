@@ -9,7 +9,7 @@ description: >
   model causes R-squared to jump from 0.76 to 0.86,
   demonstrating the power of biological groupings in
   multiple regression.
-image: "media/images/hero.jpg"
+image: "media/images/hero.png"
 document-type: "blog"
 draft: false
 execute:
@@ -27,7 +27,7 @@ cluster-order: 2
 ![Two penguins standing side by side on rocky
 terrain, illustrating the morphometric diversity that
 motivates multiple regression
-analysis.](media/images/hero.jpg){.img-fluid
+analysis.](media/images/hero.png){.img-fluid
 width=80% fig-align="center"}
 
 *Photo: Licensed under CC BY 2.0 via Wikimedia
