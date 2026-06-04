@@ -11,7 +11,7 @@ description: >
   multiple regression.
 image: "media/images/hero.png"
 document-type: "blog"
-draft: false
+draft: true
 execute:
   echo: true
   warning: false
@@ -195,7 +195,7 @@ explain why it does not.
 habitat, representing the biological populations
 whose morphometric diversity drives the statistical
 patterns examined in this
-analysis.](media/images/ambiance2.jpg){.img-fluid}
+analysis.](media/images/ambiance2.png){.img-fluid}
 
 # Multiple Regression: Adding Morphometric Predictors
 
@@ -565,7 +565,7 @@ inspection in Part 4.
 ![Photograph of penguins gathered on a shoreline,
 illustrating the colony-level variation that
 underlies individual morphometric
-measurements.](media/images/ambiance3.jpg){.img-fluid}
+measurements.](media/images/ambiance3.png){.img-fluid}
 
 ## Lessons Learnt
 
