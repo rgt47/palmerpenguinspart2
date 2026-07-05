@@ -11,7 +11,7 @@ description: >
   multiple regression.
 image: "media/images/hero.png"
 document-type: "blog"
-draft: false
+draft: true
 execute:
   echo: true
   warning: false
