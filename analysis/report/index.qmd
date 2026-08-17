@@ -1,14 +1,9 @@
 ---
-title: "Palmer Penguins Part 2: Multiple Regression and
-  Species Effects"
+title: "Palmer Penguins Part 2: Multiple Regression and Species Effects"
 author: "Ronald G. Thomas"
 date: "2025-01-02"
 categories: [r, regression]
-description: >
-  Adding species identity to the body mass prediction
-  model causes R-squared to jump from 0.76 to 0.86,
-  demonstrating the power of biological groupings in
-  multiple regression.
+description: "Adding species identity to the body mass prediction model causes R-squared to jump from 0.76 to 0.86, demonstrating the power of biological groupings in multiple regression."
 image: "media/images/hero.png"
 document-type: "blog"
 draft: true
@@ -191,7 +186,7 @@ explain why it does not.
 habitat, representing the biological populations
 whose morphometric diversity drives the statistical
 patterns examined in this
-analysis.](media/images/ambiance2.png){.img-fluid}
+analysis.](media/images/ambiance2.png){.img-fluid height=3.5in}
 
 # Multiple Regression: Adding Morphometric Predictors
 
@@ -561,7 +556,7 @@ inspection in Part 4.
 ![Photograph of penguins gathered on a shoreline,
 illustrating the colony-level variation that
 underlies individual morphometric
-measurements.](media/images/ambiance3.png){.img-fluid}
+measurements.](media/images/ambiance3.png){.img-fluid height=3.5in}
 
 ## Lessons Learnt
 
