@@ -182,11 +182,11 @@ and an RMSE of approximately 394 grams. Every model
 built here should improve upon these values or
 explain why it does not.
 
-![Photograph of a penguin colony in their natural
-habitat, representing the biological populations
-whose morphometric diversity drives the statistical
-patterns examined in this
-analysis.](media/images/ambiance2.png){.img-fluid height=3.5in}
+![A sheet of graph paper pinned to a corkboard with a
+hand-drawn scatter of points, one small cluster circled
+in red pencil, a ruler resting below: a held-out subset
+evaluated against the
+rest.](media/images/ambiance2.jpg){.img-fluid height=3.5in}
 
 # Multiple Regression: Adding Morphometric Predictors
 
