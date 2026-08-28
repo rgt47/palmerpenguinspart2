@@ -279,7 +279,7 @@ for (i in 2:nrow(multiple_coef)) {
 ```
 
 Each coefficient represents the expected change in
-body mass (grams) per one-millimetre increase in
+body mass (grams) per one-millimeter increase in
 that predictor, holding the others constant. Note
 that bill depth has a positive coefficient: deeper
 bills are associated with heavier birds after
@@ -365,7 +365,7 @@ Gentoo penguins are the largest of the three Palmer
 Archipelago species, while Chinstrap and Adelie
 penguins are more similar in mass.
 
-## Visualising the Species Model
+## Visualizing the Species Model
 
 ```{r}
 #| label: fig-species-model
@@ -532,7 +532,7 @@ inspection in Part 4.
 2. **VIF is necessary but not sufficient.** Low VIF
    values do not guarantee stable predictions on
    new data. Cross-validation (Part 3) provides a
-   more direct assessment of generalisation.
+   more direct assessment of generalization.
 
 3. **Categorical variable coding matters.** R uses
    treatment contrasts by default, making Adelie
@@ -558,7 +558,7 @@ illustrating the colony-level variation that
 underlies individual morphometric
 measurements.](media/images/ambiance3.png){.img-fluid height=3.5in}
 
-## Lessons Learnt
+## Lessons Learned
 
 ### Conceptual Understanding
 
@@ -595,7 +595,7 @@ measurements.](media/images/ambiance3.png){.img-fluid height=3.5in}
   matters.
 - Structuring model comparisons as a progression
   (simple, multiple, species) clarifies the
-  contribution of each modelling decision.
+  contribution of each modeling decision.
 
 ### Gotchas and Pitfalls
 
@@ -641,9 +641,9 @@ measurements.](media/images/ambiance3.png){.img-fluid height=3.5in}
    morphometric predictors to test whether
    allometric relationships differ across species.
 2. Implement k-fold cross-validation to assess
-   whether the R-squared improvement generalises to
+   whether the R-squared improvement generalizes to
    unseen data (addressed in Part 3).
-3. Explore regularisation methods (ridge, LASSO)
+3. Explore regularization methods (ridge, LASSO)
    to evaluate coefficient stability under
    collinearity.
 4. Incorporate sex as an additional predictor,
@@ -670,7 +670,7 @@ measurements with species identity.
 The central insight is that species differences
 persist and strengthen after controlling for
 morphometrics. This is not merely a statistical
-artefact but a reflection of genuine biological
+artifact but a reflection of genuine biological
 variation: Gentoo, Chinstrap, and Adelie penguins
 occupy different ecological niches and have evolved
 distinct body plans.
@@ -678,7 +678,7 @@ distinct body plans.
 For practitioners approaching similar biological
 datasets, the lesson is clear: always consider
 categorical grouping variables early in the
-modelling process. The variance they explain is
+modeling process. The variance they explain is
 often substantial and, more importantly,
 scientifically interpretable.
 
