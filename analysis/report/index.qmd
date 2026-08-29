@@ -144,10 +144,10 @@ predictors constant, a form of statistical
 adjustment that helps isolate individual
 contributions.
 
-A practical analogy: if simple regression asks "how
-does flipper length relate to body mass?", multiple
-regression asks "how does flipper length relate to
-body mass *after accounting for* bill length and
+Consider a practical analogy. Simple regression asks
+"how does flipper length relate to body mass?" Multiple
+regression instead asks "how does flipper length relate
+to body mass *after accounting for* bill length and
 bill depth?" This distinction matters because
 morphometric measurements are correlated.
 Penguins with longer flippers also tend to have
