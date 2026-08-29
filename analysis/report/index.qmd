@@ -6,7 +6,7 @@ categories: [r, regression]
 description: "Adding species identity to the body mass prediction model causes R-squared to jump from 0.76 to 0.86, demonstrating the power of biological groupings in multiple regression."
 image: "media/images/hero.png"
 document-type: "blog"
-draft: true
+draft: false
 execute:
   echo: true
   warning: false
